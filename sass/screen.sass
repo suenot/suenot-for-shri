@@ -6,6 +6,23 @@
 @import compass
 @import recipes
 //////////
-
+///// sticky footer
+$footer-height: 40px
+html
+    overflow-y: scroll
+html, body
+    height: 100%
+    position: relative
+footer
+    height: $footer-height
+    overflow: hidden
+#wrapper
+    min-height: 100%
+    height: auto !important
+    height: 100%
+    margin: 0 auto -#{$footer-height}
+.push
+    height: $footer-height
+////
 //////////
 // @import bootstrap-responsive.scss
