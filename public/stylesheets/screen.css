@@ -1,17 +1,25 @@
 /*
-Syntax error: File to import not found or unreadable: foundation.
+Syntax error: File to import not found or unreadable: modular-scale.
               Load paths:
                 c:/Users/suenot/Dropbox/work/suenot-for-shri/sass
                 c:/Ruby187/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets
                 c:/Ruby187/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets
                 Compass::SpriteImporter
-        on line 9 of ./sass/screen.sass
+        on line 8 of c:/Users/suenot/Dropbox/work/suenot-for-shri/sass/foundation.scss
+        from line 9 of ./sass/screen.sass
 
 Backtrace:
+c:/Users/suenot/Dropbox/work/suenot-for-shri/sass/foundation.scss:8
 ./sass/screen.sass:9
 c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/import_node.rb:64:in `import'
 c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/import_node.rb:25:in `imported_file'
 c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
+c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:224:in `visit_import'
+c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:224:in `map'
+c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:224:in `visit_import'
 c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 c:/Ruby187/lib/ruby/gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
@@ -56,4 +64,4 @@ c:/Ruby187/bin/compass:23
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: foundation.\A               Load paths:\A                 c:/Users/suenot/Dropbox/work/suenot-for-shri/sass\A                 c:/Ruby187/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 c:/Ruby187/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 9 of ./sass/screen.sass"; }
+  content: "Syntax error: File to import not found or unreadable: modular-scale.\A               Load paths:\A                 c:/Users/suenot/Dropbox/work/suenot-for-shri/sass\A                 c:/Ruby187/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 c:/Ruby187/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 8 of c:/Users/suenot/Dropbox/work/suenot-for-shri/sass/foundation.scss\A         from line 9 of ./sass/screen.sass"; }

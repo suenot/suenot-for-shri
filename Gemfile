@@ -7,7 +7,7 @@ gem 'serve'
 gem 'compass'
 # gem 'compass_twitter_bootstrap'
 gem 'bootstrap-sass'
-gem 'zurb-foundation'
+# gem 'zurb-foundation'
 # Markdown and Textile
 # gem 'rdiscount' # Markdown
 # gem 'RedCloth'  # Textile
