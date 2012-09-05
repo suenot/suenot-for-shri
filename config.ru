@@ -10,6 +10,7 @@ end
 
 require 'serve'
 require 'serve/rack'
+require "zurb-foundation"
 
 # The project root directory
 root = ::File.dirname(__FILE__)
@@ -21,7 +22,7 @@ if ENV['RACK_ENV'] != 'production'
   require 'sass'
   require 'sass/plugin/rack'
   require 'compass'
-  require 'compass_twitter_bootstrap'
+  require 'bootstrap-sass'
   
   Compass.add_project_configuration(root + '/compass.config')
   Compass.configure_sass_plugin!

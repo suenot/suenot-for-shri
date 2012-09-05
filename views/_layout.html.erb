@@ -1,36 +1,37 @@
 <!doctype html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8" />
-        <title><%= @title %></title>
-        <link rel="stylesheet" href="css/screen.css" />
-    </head>
-    <body id="<%= @id %>">
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <div id="wrapper">
-            <header class="container">
-                <div class="row">
-                    <div class="span12">
-
-                    </div>
-                </div>
-            </header>
-            <article class="container">
-                <%= yield %>
-            </article>
-            <div class="push"></div>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= @title %></title>
+    <%= stylesheet_link_tag "screen" %>
+  </head>
+  <body id="<%= @id %>">
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <div id="wrapper">
+      <article class="row">
+        <div class="eight columns centered">
+          <%= yield %>
         </div>
-        <footer class="container">
-            <div class="row">
-                <div class="span12">
-                    
-                </div>
-            </div>
-        </footer>
-    </body>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <!-- <script src="js/jquery-1.7.2.min.js"></script> -->
-    <!-- <script src="js/site.js"></script> -->
+      </article>
+      <div class="push"></div>
+    </div>
+    <footer class="row">
+      <div class="eight columns centered">
+        <hr />
+        <ul class="link-list">
+          <li><a href="http://vk.com/suenot" class="ib">vkontakte</a></li>
+          <li><a href="skype:ussr-country" class="ib">skype</a></li>
+          <li><a href="mailto:suenot@de-core.net" class="ib">e-mail</a></li>
+          <li><a href="http://stackoverflow.com/users/937966/suenot" class="ib">stackoverflow</a></li>
+          <li><a href="https://bitbucket.org/suenot" class="ib">bitbucket</a></li>
+          <li><a href="https://www.free-lance.ru/users/gmotyara/" class="ib">free-lance</a></li>
+          <li><a href="http://klavogonki.ru/profile/224114/" class="ib">klavogonki</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <!-- http://api.yandex.ru/jslibs/libs.xml -->
+  <%= javascript_include_tag "http://yandex.st/jquery/1.8.1/jquery.min.js", "foundation/jquery.foundation.orbit", "jquery.site" %>
 </html>

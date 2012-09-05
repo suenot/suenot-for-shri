@@ -1,13 +1,13 @@
 source :rubygems
 
-gem 'serve', '1.5.1'
-
-# Use edge instead:
+gem 'serve'
 # gem 'serve', :git => 'git://github.com/jlong/serve.git'
 
 # Use Compass and Sass
 gem 'compass'
-gem 'compass_twitter_bootstrap'
+# gem 'compass_twitter_bootstrap'
+gem 'bootstrap-sass'
+gem 'zurb-foundation'
 # Markdown and Textile
 # gem 'rdiscount' # Markdown
 # gem 'RedCloth'  # Textile

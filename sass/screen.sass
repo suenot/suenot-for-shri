@@ -1,14 +1,19 @@
 // libs
 @import compass/reset.scss
 // @import bootswatch/cerulean/variables
-@import bootstrap.scss
+// @import bootstrap
 // @import bootswatch/cerulean/bootswatch
 @import compass
-@import recipes
-@import font-awesome
+// @import recipes
+// @import font-awesome
+@import foundation
+@import bootstrap/variables
+@import bootstrap/mixins
+@import bootstrap/thumbnails
+// @import "foundation"
 //////////
 ///// sticky footer
-$footer-height: 40px
+$footer-height: 90px
 html
     overflow-y: scroll
 html, body
@@ -26,4 +31,92 @@ footer
     height: $footer-height
 ////
 //////////
+// Классы для упрощения верстки
+// ==========================================================================
+.w-20
+    width: 20px
+.vat
+    vertical-align: top
+.vam
+    vertical-align: middle
+.tac
+    text-align: center
+.tal
+    text-align: left
+.tar
+    text-align: right
+.mr
+    margin-right: 30px
+.mr-15
+    margin-right: 15px
+.mr-10
+    margin-right: 10px
+.ml
+    margin-left: 30px
+.ml-25
+    margin-left: 25px
+.ml-15
+    margin-left: 15px
+.ml-10
+    margin-left: 10px
+.mb
+    margin-bottom: 30px
+.mb-25
+    margin-bottom: 25px
+.mb-15
+    margin-bottom: 15px
+.mb-10
+    margin-bottom: 10px
+.mb-5
+    margin-bottom: 5px
+.mb-0
+    margin-bottom: 0
+.mt
+    margin-top: 30px
+.mt-20
+    margin-top: 20px
+.mt-15
+    margin-top: 15px
+.mt-10
+    margin-top: 10px
+.mt-5
+    margin-top: 5px
+.b
+    display: block !important
+.ib
+    display: inline-block !important
+.it
+    display: inline-table !important
+.i
+    display: inline !important
+.strong
+    font-weight: bold
+.small
+    font-size: 13px
+.little
+    font-size: 11px
+.fl
+    float: left
+.fr
+    float: right
+.fwi
+    font-weight: inherit
+.small-1
+    width: 36px
+.small-2
+    width: 60px
+.small-3
+    width: 116px
+.small-6
+    width: 248px
 // @import bootstrap-responsive.scss
+#form
+    // height: 350px
+    .orbit-slide
+        background: #ddd
+        padding: 20px 60px
+dl
+    margin-top: 14px
+    margin-bottom: 14px
+    dt
+        margin-bottom: 10px
