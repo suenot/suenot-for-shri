@@ -10,7 +10,7 @@ end
 
 require 'serve'
 require 'serve/rack'
-require "zurb-foundation"
+require 'zurb-foundation'
 
 # The project root directory
 root = ::File.dirname(__FILE__)
