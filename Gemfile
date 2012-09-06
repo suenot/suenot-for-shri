@@ -6,7 +6,7 @@ gem 'serve'
 # Use Compass and Sass
 gem 'compass'
 # gem 'compass_twitter_bootstrap'
-gem 'bootstrap-sass'
+# gem 'bootstrap-sass'
 # gem 'zurb-foundation'
 # Markdown and Textile
 # gem 'rdiscount' # Markdown

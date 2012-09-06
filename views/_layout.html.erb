@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title><%= @title %></title>
-    <%= stylesheet_link_tag "screen" %>
+    <link rel="stylesheet" href="stylesheets/screen.css" />
   </head>
   <body id="<%= @id %>">
     <!--[if IE]>
@@ -33,5 +33,7 @@
     </footer>
   </body>
   <!-- http://api.yandex.ru/jslibs/libs.xml -->
-  <%= javascript_include_tag "http://yandex.st/jquery/1.8.1/jquery.min.js", "foundation/jquery.foundation.orbit", "jquery.site" %>
+  <script src="http://yandex.st/jquery/1.8.1/jquery.min.js"></script>
+  <script src="javascripts/foundation/jquery.foundation.orbit.js"></script>
+  <script src="javascripts/jquery.site.js"></script>
 </html>
